@@ -11,7 +11,7 @@ WORKDIR /app
 RUN npm install -g yarn \
 && yarn install
 
-EXPOSE 2368
+EXPOSE 3000
 VOLUME /app/logs
 
 CMD yarn start
